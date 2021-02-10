@@ -4,20 +4,23 @@
 #define MAX 50
 
 /* interface to take user input*/
-int main() {
+void main() {
 
-	char str[MAX];
-
-	printf("Enter a string to get started or enter q to exit \n");
+	char c, str[MAX];
+	int i = 0;
+	printf("Enter a string to get started or enter $ to exit \n");
 	
-	/* checks if input is q. if true quit else continue getting input */
-	while(*str != 'q') {
-		printf("> ");
-		fgets(str, MAX, stdin);
-		printf("You entered: %s\n", str);
+	
+
+	for(;;) {
+		// get users input
+		//printf("> ");
+		c = getchar();
+		if(c=='$') {
+			break;
+		}
+		printf("%c",c);
 	}
 	
-	printf("System exited successfully!\n\n");
-	return 0;
 }
 
