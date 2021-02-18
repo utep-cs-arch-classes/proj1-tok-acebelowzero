@@ -1,12 +1,7 @@
-FILES = tokenizer.o history.o main.o
-CFLAGS = -g
-
 all: tokenizer
 
-tokenizer: $(FILES)
-					gcc -c tokenizer $(CFLAGS) $(FILES)
-clean: 
-	rm -f *.o tokenizer
+tokenizer: tokenizer.c main.c
+	gcc $^ -g -o $@
 
-run: tokenizer
-		./tokenizer
+clean:
+	rm -f *.o *.c~ tokenizer 

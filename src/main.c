@@ -1,7 +1,9 @@
 #include <stdio.h>
-#define MAX 40
+#include <stdlib.h>
+#include "tokenizer.h"
+#define MAX 32
 void main() {
-    char c, str[MAX];
+    char **tokenized, c, str[MAX];
     int i;
 		/* Enter q to quit the program  */
     while(*str != 'q') {
@@ -12,6 +14,9 @@ void main() {
         }
         str[i] = '\0';
         printf("%s\n", str);
+				char **test = tokenize(str);
+				print_tokens(test);
+//				free_tokens(test);
     }
 
 }
