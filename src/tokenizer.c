@@ -20,7 +20,7 @@ int non_space_char(char c){
 	return 0;
 }
 
-// returns starting word of str
+// returns starting character of str
 char *word_start(char *str){
 //	for(int i =0; space_char(str[i]);  i++) {
 	//	return &str[i]; // returns character
@@ -32,7 +32,7 @@ char *word_start(char *str){
 	return &str[i];
 }
 
-//retruns end word of str
+//retruns end character of str
 char *word_end(char *str) {
 	//printf("%s", str);
 	str = word_start(str);
