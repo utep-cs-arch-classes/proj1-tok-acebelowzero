@@ -1,0 +1,35 @@
+[33mcommit 4ed7788d282c546905da264ca6e2e7706aaf653b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ubuntu <ubuntu@ubuntu.lan>
+Date:   Wed Feb 10 17:12:31 2021 +0000
+
+    converted while loop with fgets to for loop with getchar
+
+[33mcommit 364b477a5afcaed36f3cb7957adc262b21efd63b[m
+Author: Ubuntu <ubuntu@ubuntu.lan>
+Date:   Tue Feb 9 18:20:30 2021 +0000
+
+    users can enter input and have it printed out
+
+[33mcommit 4513da58dfd7bed0af3441715f493e8d043da864[m
+Author: Ubuntu <ubuntu@ubuntu.lan>
+Date:   Tue Feb 9 17:59:51 2021 +0000
+
+    added ui and prompt user to enter a string
+
+[33mcommit 6fc3b7d6020d576cf0321315c7f86c0e382e57d7[m
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Mon Feb 1 16:04:12 2021 +0000
+
+    Setting up GitHub Classroom Feedback
+
+[33mcommit 87b99df450d49fdee50509a931f403716a8ed439[m[33m ([m[1;31morigin/feedback[m[33m)[m
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Mon Feb 1 16:04:12 2021 +0000
+
+    GitHub Classroom Feedback
+
+[33mcommit 9f9e35956bd01565c82190205859601161f37342[m
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Mon Feb 1 16:04:09 2021 +0000
+
+    Initial commit
