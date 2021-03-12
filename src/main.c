@@ -14,28 +14,19 @@ int compare_string(char *str1, char *str2)
   return -1; 
 }
 
-int str_to_num(char *a)
+int str_to_num(char *str)
 {
- int c, sign, offset, n;
-  if (a[0] == '-') {  // Handle negative integers
-    sign = -1;
-  }
-  if (sign == -1) {  // Set starting position to convert
-    offset = 1;
-  }
-  else {
-    offset = 0;
-  }
-  n = 0;
-  for (c = offset; a[c] != '\0'; c++) {
-    n = n * 10 + a[c] - '0';
-  }
 
-  if (sign == -1) {
-    n = -n;
-  }
+  int i = 0;
+  int num = 0;
+  for(i=0; str[i] != '\0'; i++) {
+    num = num*10;
+    num = num+(str[i]-48);
 
-  return n;
+    // how it works 23 0*10+2=2 2*10=20+3=23
+    
+  }
+  return num;
 }
 
 void main() {
