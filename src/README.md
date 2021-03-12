@@ -1,12 +1,29 @@
-Project 1: Tokenizer
-====================
-# Instructions:
+# Project 1: Tokenizer
 
-You should document your tokenizer in this file.
 
-This file is written in the refreshingly simple `markdown` text
-formatting language.
+## Installation
+```
+git clone https://github.com/utep-cs-arch-classes/proj1-tok-acebelowzero.git
+```
 
-To learn about text formatting using markdown, we encourage you to examine 
- - [../README.md](../README.md)
- - the online [Markdown Guide](https://www.markdownguide.org/).
+```
+cd proj1-tok-acebelowzero
+
+```
+# Compile and running
+```bash
+$ make clean
+$ make 
+$ ./tokenizer
+```
+
+
+## Usage
+
+```
+Enter a string of your choice
+Press q to exit
+Enter history to view a list of history
+Enter !n -> n is the index of your choice
+
+```
