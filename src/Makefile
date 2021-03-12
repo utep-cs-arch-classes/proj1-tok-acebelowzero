@@ -1,6 +1,6 @@
 all: tokenizer
 
-tokenizer: tokenizer.c main.c
+tokenizer: tokenizer.c history.c main.c
 	gcc $^ -g -o $@
 
 clean:
