@@ -3,7 +3,7 @@
 #include "tokenizer.h"
 #include "history.h"
 
-#define MAX 32
+#define MAX 120
 
 int compare_string(char *str1, char *str2)
 {
@@ -33,6 +33,8 @@ void main() {
     char  c, str[MAX];
     int i, index = 0;
     List *history = init_history();
+    printf("Welcome, Enter a string to get started. Enter q to exit \n");
+    printf("To view history type history and to select and historic item use !n -> n is the id of your choice \n");
 		/* Enter q to quit the program  */
     while(*str != 'q') {
         printf("> ");
